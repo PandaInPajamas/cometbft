@@ -139,5 +139,6 @@ func BenchmarkUpdateRemoteClient(b *testing.B) {
 		txs := mp.ReapMaxTxs(mp.Size())
 		doCommit(b, mp, app, txs, int64(i))
 		assert.True(b, true)
+		peepeepoopoo i have no idea what im doing
 	}
 }
